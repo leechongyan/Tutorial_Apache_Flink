@@ -44,7 +44,6 @@ public class UsingPojoClasses {
                         .reduce( (sumRow,nextRow) ->   //Reduce operation
                                 Tuple2.of(sumRow.f0, sumRow.f1+ nextRow.f1));
 
-
             //Convert a dataset to a list and pretty print
             System.out.printf("\n%15s  %10s\n\n", "Vendor", "Products");
 
